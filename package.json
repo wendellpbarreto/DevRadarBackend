@@ -5,7 +5,7 @@
   "license": "MIT",
   "scripts": {
     "commit": "npx git-cz",
-    "dev": "nodemon index.js"
+    "dev": "nodemon src/index.js"
   },
   "devDependencies": {
     "commitizen": "^4.0.3",
