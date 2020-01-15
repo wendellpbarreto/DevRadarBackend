@@ -4,7 +4,8 @@
   "main": "index.js",
   "license": "MIT",
   "scripts": {
-    "commit": "npx git-cz"
+    "commit": "npx git-cz",
+    "dev": "nodemon index.js"
   },
   "devDependencies": {
     "commitizen": "^4.0.3",
@@ -20,6 +21,7 @@
     "eslint-plugin-react": "^7.14.3",
     "eslint-plugin-react-hooks": "^1.7.0",
     "husky": "^4.0.9",
+    "nodemon": "^2.0.2",
     "prettier": "^1.19.1"
   },
   "config": {
@@ -29,6 +31,7 @@
   },
   "dependencies": {
     "express": "^4.17.1",
-    "global": "^4.4.0"
+    "global": "^4.4.0",
+    "mongoose": "^5.8.7"
   }
 }
